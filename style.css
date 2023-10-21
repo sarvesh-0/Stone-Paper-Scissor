@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #1A1A1A;
+    /* border:2px solid black; */
+    background-image:url("https://th.bing.com/th/id/OIP.D5SfRQVv0vQceYKAKvf09wHaEo?w=237&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    /* background-repeat: no-repeat; */
+    background-size:cover;
+    background-blend-mode: multiply;
+}
+#heading{
+    text-align: center;
+    padding: 20px 30px;
+    color:  yellow;
+    font-size: 1.5rem;
+}
+#dinput{
+    align-content: center;
+    text-align: center;
+    padding: 20px;
+}
+#pname, #btn{
+padding: 9px;
+}
+#t1{
+    /* padding: 9px; */
+    color:  yellow;
+    background-color: #171817;
+    text-align: center;
+    font-family: 'Nosifer';
+    width: 400px;
+    height: 35px;
+    font-size: 20pt;
+    border-color: #171817;
+    border: 1px;
+}
+#b1{
+    /* padding: 9px; */
+    color:  #6E6E6E;
+    width: 250px;
+    height: 35px;
+    font-family: 'Nosifer', sans-serif;
+    font-size: 17pt;
+    text-align: center;
+    background-color:#151515;;
+    border-color: rgb(222, 222, 104);
+    border: 1px;
+}
+.main-text-style{
+    text-align: center;
+    font-family: 'Nosifer', sans-serif;
+    font-size: 3.5rem;
+    border-bottom: 2px solid;
+
+}
+.container{
+ display:flex;
+ justify-content: space-around;
+ align-content: center;
+ flex-wrap: wrap;
+
+}
+.container-item{
+    margin-top: 3%;
+    padding: 3%;
+    align-items: center;
+}
+.handles{
+   height :250px ;
+   width: 250px ; 
+   border: 5px solid rgb(231, 231, 141);
+   border-radius: 50%;
+}
+#score-board{
+    display:flex;
+    justify-content:center;
+    align-content: center;
+    flex-wrap:wrap;
+}
+.score-board-style{
+    text-align: center;
+    font-family: 'Nosifer', sans-serif;
+    font-size: 2em;
+    margin: 10px;
+
+}
+.score-board-style2{
+   
+    padding:5px;
+    margin:8px;
+    border-radius:7%;
+    background-image: url("https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=698&q=80");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: yellow;
+    background-blend-mode: multiply;
+    position: relative;
+    text-align:center;
+}
+.computer {
+    position :absolute;
+    right:250px;
+    color:  yellow;
+    width :50px;
+    height:20px;
+
+} 
+.you {
+    position :absolute;
+    left:100px;
+    color:  yellow;
+   width :50px;
+   height:20px;
+
+} 
+.handles:hover{
+    cursor: pointer;
+}
+
+#status{
+    color: yellow;
+    text-align: center;
+    margin:100px;
+    font-size: 2rem;
+    font-family: 'Nosifer', sans-serif;
+    display: flex;
+    justify-content: center;
+    
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:8px;
+    padding: 10px;
+    
+}
+#footer-text{
+    color:  yellow;
+    font-size: 20px;
+    border-bottom: none;
+}
+.footer-img{
+    height:100px;
+    width:100px;
+    border-radius:50%;
+}
+

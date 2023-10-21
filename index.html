@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stone | Paper | Scissor</title>
+    <link rel="shortcut icon" href="https://th.bing.com/th/id/OIP.HbI6T3xeVO2XngKCsX9HRQAAAA?pid=ImgDet&rs=1" />
+    <link rel = "stylesheet" href = "./style.css" />
+    
+</head>
+<body >
+    <header id ="heading">
+        <span class ="main-text-style"> Stone Paper Scissor</span>
+    </header>
+    
+    <section>
+       <div id="dinput">
+        <div id="pname"><input type="text" id="t1" onclick="size()" value="" placeholder="Enter Your Name:"></div>
+        <div id="btn"><button onclick="submit('t1')" id="b1" >Play Now !</button></div>
+       </div>
+    </section>
+    <section>
+        <div class = "container"><!--this is flex box container-->
+            <div class = "container-item" ><!--this is flex box item1 rock-->
+               <img src="https://img.freepik.com/premium-vector/clenched-fist-icon-flat-style-isolated-white-background-gestural-symbol_96318-19651.jpg" class="handles" onclick = "randomNumberGenerator(0)">
+            </div >
+            <div class ="container-item"><!--this is flebox item2 paper-->
+                <img src="https://img.freepik.com/premium-vector/palm-up-icon-flat-style-isolated-white-background-gestural-symbol_96318-19646.jpg" class="handles" onclick = "randomNumberGenerator(1)">
+            </div >
+            <div class ="container-item"> <!--this is flex box item 3 scissor-->
+                <img src=" https://img.freepik.com/premium-vector/gesture-victoria-icon-flat-style-isolated-white-background-gestural-symbol_96318-19648.jpg" class="handles" onclick = "randomNumberGenerator(2)">
+            </div>
+        </div>
+
+    </section>
+    <section> 
+         <!--score board-->
+            <div class="score-board-style"> <span class="score-board-style2">Score-Board</span>
+             <div class ="computer">Computer
+                 <div class="score " id = "score-computer">0</div>
+             </div>
+             <div class ="you"><div id="you">Player</div>
+             <div class="score " id ="score-player">0</div>
+            </div>
+            <!--status-->
+            <div><span id="status">Select Your Moves !</span></div>
+        </div>
+        
+    </section>
+    <footer>
+       
+        <div id = "footer">
+            <div class= "main-text-style" id = "footer-text">© Sarvesh</div>
+            <div> <a href="https://www.linkedin.com/in/sarvesh-teware" target="_blank" rel="noopener noreferrer"><image src="about.gif" class = "footer-img" ></image></a></div>
+          </div>
+    </footer>
+    <script  src ="./function.js" async ></script>
+</body>
+</html>
